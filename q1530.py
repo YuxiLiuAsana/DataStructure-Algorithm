@@ -38,4 +38,3 @@ class Solution:
         ret += [(x + 1) for x in left[i:]]
         ret += [(x + 1) for x in right[j:]]
         return ret
-        
