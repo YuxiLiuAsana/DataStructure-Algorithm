@@ -32,4 +32,4 @@ class Solution:
         if number == 0:
             return 0
         else:
-            return int(math.log10(numberl))
+            return int(math.log10(number))
