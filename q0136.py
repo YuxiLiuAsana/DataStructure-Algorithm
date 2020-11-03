@@ -11,3 +11,9 @@ class Solution(object):
             else:
                 s.add(n)
         return s.pop()
+
+    def singleNumberBitMask(self, nums: List[int]) -> int:
+        a = 0
+        for i in nums:
+            a ^= i
+        return a
