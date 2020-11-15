@@ -31,4 +31,3 @@ class Solution(object):
                     ret += [[unique[i],unique[j],t]]
         return ret
                     
-                
